@@ -2,6 +2,8 @@
 
 const face = document.querySelector('.js-face');
 
-function changeFace() {
-  face.innerHTML = ':)';
+function changeFace(text) {
+  face.innerHTML = text;
 }
+
+console.log(changeFace(':)'));
