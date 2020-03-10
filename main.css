@@ -1,8 +1,16 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .head {
   background: #fc0;
   height: 100px;
   position: relative;
   width: 100px;
+  border-radius: 50%;
 }
 .face {
   font-family: 'courier new', serif;
